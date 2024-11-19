@@ -1,0 +1,44 @@
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 20px;
+  background-color: #ffffff;
+  height: 3rem;
+}
+
+header nav p {
+  margin: 0;
+  margin-right: auto;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0 20px 0 0;
+  font-size: 12px;
+}
+
+header nav ul li {
+  margin: 0 20px;
+}
+
+header nav a {
+  text-decoration: none;
+  color: #7b7f8c;
+}
+
+header nav a:hover {
+  color: #000000;
+}
+
+header nav a:active {
+  color: #000000;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 0;
+}
