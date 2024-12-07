@@ -9,11 +9,10 @@ Este é um projeto de página web desenvolvido em Angular para gerenciamento de 
 
 - Cards Totalizadores:
   Mostra totalizadores em destaque, com informações como:
-
-- Total de pedidos realizados
-  Pedidos pendentes
-  Pedidos entregues
-  Receita total gerada
+  - Total de pedidos realizados
+  - Pedidos pendentes
+  - Pedidos entregues
+  - Receita total gerada
   
 - Atualização Dinâmica:
   Os dados são atualizados em tempo real, refletindo mudanças no status dos pedidos.
@@ -21,3 +20,9 @@ Este é um projeto de página web desenvolvido em Angular para gerenciamento de 
 - Design Responsivo:
   Adaptado para diferentes tamanhos de tela, garantindo boa experiência em desktops e dispositivos móveis.
 
+## 🛠️ Tecnologias Utilizadas
+
+- Angular 18: Framework principal para desenvolvimento do frontend.
+- TypeScript: Linguagem principal para escrita do código.
+- Angular Router: Configuração de rotas para navegação entre diferentes seções da aplicação.
+- RxJS: Gerenciamento de estados e streams de dados.
