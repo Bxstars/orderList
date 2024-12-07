@@ -1,3 +1,10 @@
 <app-header></app-header>
-<app-table [dataSource]="dataSource" [columns]="tableColumns"></app-table>
+<app-cards></app-cards>
+<app-table
+  [title]="title"
+  [subtitle]="subtitle"
+  [dataSource]="dataSource"
+  [columns]="tableColumns">
+</app-table>
+<app-footer></app-footer>
 

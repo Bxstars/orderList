@@ -39,6 +39,16 @@ header nav a:active {
 
 hr {
   border: 0;
-  border-top: 1px solid #cccccc;
+  border-top: 1px solid #e1e1e1;
   margin: 0;
+}
+
+p {
+  font-weight: 500;
+  color: #0a1533;
+}
+
+.material-icons {
+  margin-right: 1rem;
+  color: #0a1533;
 }

@@ -1,0 +1,13 @@
+div {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  padding: 10px 0;
+  background-color: #48477e;
+  color: #ffffff;
+}
+
+p {
+  margin: 0;
+  font-size: 10px;
+}
