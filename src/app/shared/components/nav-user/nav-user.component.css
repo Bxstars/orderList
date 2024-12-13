@@ -1,0 +1,55 @@
+hr {
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 0;
+}
+
+.title {
+  font-size: 16pt;
+  font-weight: 500;
+  margin: 0;
+  padding: 20px 0 0 20px;
+}
+
+.subtitle {
+  color: #6e6e6e;
+  font-size: 10pt;
+  margin: 0;
+  padding: 0 0 20px 20px;
+}
+
+.user-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 2rem;
+}
+
+.calendary-border {
+  border: none;
+  border-radius: 8px;
+  background-color: #e9edff;
+  color: #4069c8;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.p {
+  padding: 0;
+}
+
+.material-icons {
+  font-size: 18px;
+  margin: 0px;
+}
+
+.user-inf {
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+}
+
