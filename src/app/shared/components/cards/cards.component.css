@@ -35,7 +35,6 @@
   justify-content: center;
   border: 5px solid #355aaa;;
   border-radius: 8px;
-  /* background-color: #0a1533; */
   background-color: #355aaa;
   padding: 5px;
   width: 2rem;
@@ -86,4 +85,10 @@ hr {
 .trending {
   border-radius: 10px;
   padding: 2px 5px;
+}
+
+@media (max-width: 1280px) {
+  .card{
+    width: 15rem;
+  }
 }

@@ -2,7 +2,7 @@ header nav {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  padding: 0 20px;
+  margin: 0 20px;
   background-color: #ffffff;
   height: 3rem;
 }
@@ -17,11 +17,11 @@ header nav ul {
   list-style: none;
   padding: 0;
   margin: 0 20px 0 0;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 header nav ul li {
-  margin: 0 20px;
+  padding: 0 20px;
 }
 
 header nav a {
@@ -45,10 +45,12 @@ hr {
 
 p {
   font-weight: 500;
+  font-size: 21px;
   color: #0a1533;
 }
 
 .material-icons {
-  margin-right: 1rem;
+  margin-right: 10px;
+  font-size: 25px;
   color: #0a1533;
 }
