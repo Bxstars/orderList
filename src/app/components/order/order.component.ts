@@ -1,14 +1,13 @@
 import { Component } from '@angular/core';
-import { HeaderComponent } from "../../shared/components/header/header.component";
 import { TableColumn, TableComponent } from "../../shared/components/table/table.component";
 import { CardsComponent } from "../../shared/components/cards/cards.component";
 import { OrderService } from '../../core/services/mock/order/order-data.service';
-import { FooterComponent } from "../../shared/components/footer/footer.component";
+
 
 @Component({
   selector: 'app-order',
   standalone: true,
-  imports: [HeaderComponent, TableComponent, CardsComponent, FooterComponent],
+  imports: [TableComponent, CardsComponent],
   templateUrl: './order.component.html',
   styleUrl: './order.component.css'
 })
