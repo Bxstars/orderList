@@ -4,6 +4,7 @@
   padding:0;
   margin:0;
   border:0;
+  box-sizing: border-box;
 }
 
 html, body {
@@ -13,6 +14,16 @@ html, body {
 body {
   margin: 0;
   font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  flex: 1;
 }
 
 .table-container {
@@ -38,4 +49,19 @@ body {
   background-color: #bbbbc3;
   border-radius: 50px;
   border: 3px solid  rgb(236, 236, 236);
+}
+
+.mat-mdc-select-value {
+  width: 50%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.status-column {
+  max-width: 130px;
+  width: 130px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap; 
 }

@@ -56,3 +56,30 @@
   border-bottom-color:  #e4e4e4da;
   font-size: 10pt;
 }
+
+.mat-mdc-select {
+  font-size: 9pt;
+  font-weight: 500;
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+
+.status-new {
+  background-color: #e9edff;
+  color: #4069c8;
+}
+
+.status-on-process {
+  background-color: #fff3cd;
+  color: #e0ab0d;
+}
+
+.status-delivery {
+  background-color: #fedbe5;
+  color: #db0698;
+}
+
+.status-done {
+  background-color: #cfeee6;
+  color: #47bb98;
+}
