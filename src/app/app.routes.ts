@@ -8,32 +8,32 @@ export const routes: Routes = [
   {
     path: "",
     component: HomeComponent,
-    title: "Home"
+    data: { title: "Home" },
   },
   {
     path: "not-found",
     component: NoFoundComponent,
-    title: "404 Not Found"
+    data: { title: "404 Not Found" },
   },
   {
     path: "under-construction",
     component: UnderConstructionComponent,
-    title: "503 Service Unavailable"
+    data: { title: "Under Construction" },
   },
   {
     path: 'order',
     component: OrderComponent,
-    title: "Order"
+    data: { title: "Order" },
   },
   {
     path: 'customers',
     component: UnderConstructionComponent,
-    title: "Customer"
+    data: { title: "Customers" },
   },
   {
     path: 'setting',
     component: UnderConstructionComponent,
-    title: "Setting"
+    data: {title: "Setting"}
   },
   { path: '**', redirectTo: 'not-found' },
 ];
