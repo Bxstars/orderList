@@ -14,7 +14,7 @@ export class OrderService {
       serviceType: 'Delivery',
       item: 'Yakissoba',
       quantity: '1',
-      status: 'NEW',
+      status: 'new',
       total: 75.00
     },
     {
@@ -24,7 +24,7 @@ export class OrderService {
       serviceType: 'Take Away',
       item: 'Guioza',
       quantity: '2',
-      status: 'NEW',
+      status: 'delivery',
       total: 65.00
     },
     {
@@ -34,7 +34,7 @@ export class OrderService {
       serviceType: 'Delivery',
       item: 'Hot Rolls',
       quantity: '1',
-      status: 'ON PROCESS',
+      status: 'on process',
       total: 65.00
     },
     {
@@ -44,7 +44,7 @@ export class OrderService {
       serviceType: 'Delivery',
       item: 'Temaki',
       quantity: '3',
-      status: 'DONE',
+      status: 'done',
       total: 175.00
     },
     {
@@ -54,7 +54,7 @@ export class OrderService {
       serviceType: 'Take Away',
       item: 'Jyo',
       quantity: '4',
-      status: 'NEW',
+      status: 'new',
       total: 115.00
     },
     {
@@ -64,7 +64,7 @@ export class OrderService {
       serviceType: 'Delivery',
       item: 'Salmon teppan',
       quantity: '3',
-      status: 'DONE',
+      status: 'done',
       total: 125.00
     },
 ];
