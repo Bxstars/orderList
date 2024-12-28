@@ -1,13 +1,16 @@
-div {
-  display: flex;
-  justify-content: center;
-  align-items: baseline;
-  padding: 10px 0;
-  background-color: #48477e;
-  color: #ffffff;
-}
-
 p {
   margin: 0;
   font-size: 12px;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 7px 0;
+  background-color: #48477e;
+  color: #ffffff;
 }
