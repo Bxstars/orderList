@@ -11,10 +11,10 @@ import { Component } from '@angular/core';
 export class CarouselComponent {
 
   images: string[] = [
-    '/assets/images/stefen-tan-_sfMD-OhFR8-unsplash.jpg',
-    '/assets/images/derek-duran-Jz4QMhLvGgw-unsplash.jpg',
-    '/assets/images/bon-vivant-qom5MPOER-I-unsplash.jpg',
-    '/assets/images/annie-spratt-Pk6nuEXu_Lo-unsplash.jpg',
+    '/assets/images/stefen-tan-_sfMD-OhFR8-unsplash.jpg 600w',
+    '/assets/images/derek-duran-Jz4QMhLvGgw-unsplash.jpg 600w',
+    '/assets/images/bon-vivant-qom5MPOER-I-unsplash.jpg 600w',
+    '/assets/images/annie-spratt-Pk6nuEXu_Lo-unsplash.jpg 1200w',
   ];
 
   currentIndex = 0;
