@@ -17,8 +17,6 @@
 - [🖼️ Demonstração](#️-demonstração)
 - [🛠️ Tecnologias Utilizadas](#️-tecnologias-utilizadas)
 - [⚙️ Instalação e Execução](#️-instalação-e-execução)
-- [📂 Estrutura do Projeto](#-estrutura-do-projeto)
-- [🧩 Rotas Principais](#-rotas-principais)
 - [📈 Próximos Passos](#-próximos-passos)
 - [🤝 Contribuição](#-contribuição)
 - [🧾 Licença](#-licença)
@@ -55,3 +53,74 @@
 
 ```bash
 ![Tokyo King Screenshot](./src/assets/screenshots/dashboard.png)
+```
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+| Tecnologia | Descrição |
+|-------------|------------|
+| **Angular 18** | Framework principal do frontend |
+| **TypeScript** | Linguagem tipada para maior segurança e escalabilidade |
+| **Angular Router** | Gerenciamento de rotas e navegação |
+| **RxJS** | Programação reativa e controle de streams de dados |
+| **HTML5 / SCSS / Tailwind (opcional)** | Estrutura e estilização responsiva da interface |
+| **ESLint / Prettier** | Padronização e qualidade de código |
+
+---
+
+## ⚙️ Instalação e Execução
+### 🧩 Pré-requisitos
+
+  - Antes de começar, certifique-se de ter instalado:
+  
+  - Node.js (versão 18 ou superior)
+  
+  - Angular CLI (npm install -g @angular/cli)
+
+  ### 🚀 Executando o projeto localmente
+
+  ```bash
+  # Clone o repositório
+  git clone https://github.com/seu-usuario/tokyo-king.git
+  
+  # Acesse o diretório do projeto
+  cd tokyo-king
+  
+  # Instale as dependências
+  npm install
+  
+  # Inicie o servidor de desenvolvimento
+  ng serve
+  
+  # Acesse em: http://localhost:4200/
+
+  ```
+---
+
+## 📈 Próximos Passos
+
+- Implementar autenticação de usuários (login e logout)
+- Criar relatórios exportáveis (CSV/PDF)
+- Integrar com API real de pedidos
+- Criar PWA para acesso offline
+
+---
+
+## 🧾 Licença
+
+- Este projeto está licenciado sob a MIT License.
+- Veja o arquivo LICENSE para mais detalhes.
+
+---
+
+## 👨‍💻 Autor
+
+**Bárbara Xavier**
+
+Frontend Developer • Angular | TypeScript | RxJS
+
+### 📧 Entre em contato
+
+🌐 LinkedIn • GitHub
