@@ -1,28 +1,57 @@
-# Tokyo King - Sistema de Pedidos
+# 🍣 Tokyo King — Gerenciador de Pedidos
 
-Este é um projeto de página web desenvolvido em Angular para gerenciamento de pedidos de um restaurante fictício chamado Tokyo King. A aplicação oferece uma interface intuitiva para visualização e controle dos pedidos realizados.
+![Angular](https://img.shields.io/badge/Angular-18-DD0031?style=for-the-badge&logo=angular&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![RxJS](https://img.shields.io/badge/RxJS-7.8-B7178C?style=for-the-badge&logo=reactivex&logoColor=white)
+![License](https://img.shields.io/badge/license-MIT-green?style=for-the-badge)
+![Status](https://img.shields.io/badge/status-Em%20Desenvolvimento-yellow?style=for-the-badge)
+
+> Aplicação web desenvolvida em **Angular 18** para o gerenciamento de pedidos de um restaurante fictício chamado **Tokyo King**.  
+> A interface permite acompanhar pedidos, visualizar métricas e monitorar o fluxo de pedidos em tempo real.
+
+---
+
+## 📑 Índice
+
+- [📋 Funcionalidades](#-funcionalidades)
+- [🖼️ Demonstração](#️-demonstração)
+- [🛠️ Tecnologias Utilizadas](#️-tecnologias-utilizadas)
+- [⚙️ Instalação e Execução](#️-instalação-e-execução)
+- [📂 Estrutura do Projeto](#-estrutura-do-projeto)
+- [🧩 Rotas Principais](#-rotas-principais)
+- [📈 Próximos Passos](#-próximos-passos)
+- [🤝 Contribuição](#-contribuição)
+- [🧾 Licença](#-licença)
+
+---
 
 ## 📋 Funcionalidades
 
-- Listagem de Pedidos:
-  Exibe uma lista dinâmica de pedidos com informações detalhadas, como o nome do cliente, itens pedidos, valor total e status (ex.: pendente, em preparação, pronto, entregue).
+- **📜 Listagem de Pedidos:**  
+  Exibe uma lista dinâmica com informações detalhadas:
+  - Nome do cliente  
+  - Itens pedidos  
+  - Valor total  
+  - Status do pedido *(pendente, em preparação, pronto, entregue)*  
 
-- Cards Totalizadores:
-  Mostra totalizadores em destaque, com informações como:
-  - Total de pedidos realizados
-  - Pedidos pendentes
-  - Pedidos entregues
-  - Receita total gerada
-  
-- Atualização Dinâmica:
-  Os dados são atualizados em tempo real, refletindo mudanças no status dos pedidos.
+- **📊 Cards Totalizadores:**  
+  Mostra indicadores principais em destaque:
+  - Total de pedidos realizados  
+  - Pedidos pendentes  
+  - Pedidos entregues  
+  - Receita total gerada  
 
-- Design Responsivo:
-  Adaptado para diferentes tamanhos de tela, garantindo boa experiência em desktops e dispositivos móveis.
+- **⚡ Atualização Dinâmica:**  
+  Os dados são atualizados em tempo real, refletindo mudanças no status dos pedidos.  
 
-## 🛠️ Tecnologias Utilizadas
+- **💻 Design Responsivo:**  
+  Adaptado para **desktop**, **tablet** e **mobile**, garantindo boa experiência em qualquer dispositivo.
 
-- Angular 18: Framework principal para desenvolvimento do frontend.
-- TypeScript: Linguagem principal para escrita do código.
-- Angular Router: Configuração de rotas para navegação entre diferentes seções da aplicação.
-- RxJS: Gerenciamento de estados e streams de dados.
+---
+
+## 🖼️ Demonstração
+
+> (Adicione aqui uma imagem ou GIF do projeto rodando localmente)
+
+```bash
+![Tokyo King Screenshot](./src/assets/screenshots/dashboard.png)
