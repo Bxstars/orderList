@@ -5,11 +5,10 @@ import { OrderService } from '../../core/services/mock/order/order-data.service'
 
 
 @Component({
-  selector: 'app-order',
-  standalone: true,
-  imports: [TableComponent, CardsComponent],
-  templateUrl: './order.component.html',
-  styleUrl: './order.component.css'
+    selector: 'app-order',
+    imports: [TableComponent, CardsComponent],
+    templateUrl: './order.component.html',
+    styleUrl: './order.component.css'
 })
 export class OrderComponent {
   title = 'Order List';

@@ -4,11 +4,10 @@ import { MatCardModule } from '@angular/material/card';
 import { CardService } from '../../../core/services/mock/card/card-data.service';
 
 @Component({
-  selector: 'app-cards',
-  standalone: true,
-  imports: [MatCardModule, CommonModule],
-  templateUrl: './cards.component.html',
-  styleUrl: './cards.component.css'
+    selector: 'app-cards',
+    imports: [MatCardModule, CommonModule],
+    templateUrl: './cards.component.html',
+    styleUrl: './cards.component.css'
 })
 export class CardsComponent {
   data: any[] = [];

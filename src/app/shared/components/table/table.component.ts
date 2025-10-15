@@ -11,11 +11,10 @@ export interface TableColumn {
 }
 
 @Component({
-  selector: 'app-table',
-  standalone: true,
-  imports: [MatTableModule, CommonModule, MatSelectModule, MatOptionModule],
-  templateUrl: './table.component.html',
-  styleUrl: './table.component.css'
+    selector: 'app-table',
+    imports: [MatTableModule, CommonModule, MatSelectModule, MatOptionModule],
+    templateUrl: './table.component.html',
+    styleUrl: './table.component.css'
 })
 export class TableComponent {
   @Input() dataSource:any[] = [];
