@@ -61,7 +61,7 @@
 
 | Tecnologia | Descrição |
 |-------------|------------|
-| **Angular 18** | Framework principal do frontend |
+| **Angular 19** | Framework principal do frontend |
 | **TypeScript** | Linguagem tipada para maior segurança e escalabilidade |
 | **Angular Router** | Gerenciamento de rotas e navegação |
 | **RxJS** | Programação reativa e controle de streams de dados |
