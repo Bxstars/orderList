@@ -49,11 +49,7 @@
 
 ## 🖼️ Demonstração
 
-> (Adicione aqui uma imagem ou GIF do projeto rodando localmente)
-
-```bash
-![Tokyo King Screenshot](./src/assets/screenshots/dashboard.png)
-```
+> ![Tokyo King Screenshot](https://github.com/Bxstars/orderList/blob/master/src/assets/images/tokyo-king.png)
 
 ---
 
