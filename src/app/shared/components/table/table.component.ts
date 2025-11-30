@@ -1,8 +1,17 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, inject } from '@angular/core';
 import { MatTableModule } from '@angular/material/table';
 import { CommonModule } from '@angular/common';
 import { MatSelectModule } from '@angular/material/select';
 import { MatOptionModule } from '@angular/material/core';
+import {
+  MatDialog,
+  MatDialogActions,
+  MatDialogClose,
+  MatDialogContent,
+  MatDialogRef,
+  MatDialogTitle,
+} from '@angular/material/dialog';
+import { ModalOrderComponent } from '../../../components/modal-order/modal-order.component';
 
 
 export interface TableColumn {
@@ -21,6 +30,8 @@ export class TableComponent {
   @Input() columns: TableColumn[] = [];
   @Input() title: string = '';
   @Input() subtitle: string = '';
+
+  readonly dialog = inject(MatDialog)
 
   get displayedColumns(): string[] {
     return this.columns.map(column => column.columnDef)
@@ -52,4 +63,10 @@ export class TableComponent {
     }
   }
 
+  createOrder(): void {
+    this.dialog.open(ModalOrderComponent, {
+      width: '500px',
+      height: '412px'
+    })
+  }
 }

@@ -6,7 +6,7 @@ import { OrderService } from '../../core/services/mock/order/order-data.service'
 
 @Component({
     selector: 'app-order',
-    imports: [TableComponent, CardsComponent],
+    imports: [TableComponent],
     templateUrl: './order.component.html',
     styleUrl: './order.component.css'
 })

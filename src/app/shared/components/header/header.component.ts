@@ -5,7 +5,7 @@ import { RouterLink, RouterOutlet } from '@angular/router';
 
 @Component({
     selector: 'app-header',
-    imports: [MatButtonModule, MatDividerModule, RouterLink],
+    imports: [MatButtonModule, MatDividerModule],
     templateUrl: './header.component.html',
     styleUrl: './header.component.css'
 })

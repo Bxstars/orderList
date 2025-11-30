@@ -7,6 +7,7 @@ hr {
 .title {
   font-size: 16pt;
   font-weight: 500;
+  color: #000000;
   margin: 0;
   padding: 15px 0 0 20px;
 }
@@ -22,6 +23,7 @@ hr {
   display: flex;
   justify-content: space-between;
   margin: 0 2rem;
+  background-color: #f2f3f7;
 }
 
 .calendary-border {

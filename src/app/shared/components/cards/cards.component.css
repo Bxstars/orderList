@@ -1,7 +1,7 @@
 .card-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 50px;
+  gap: 30px;
   justify-content: center;
 }
 
@@ -15,6 +15,7 @@
   border: 1px solid #e1e1e1;
   border-radius: 8px;
   font-size: 14px;
+  background-color: #ffffff;
 }
 
 .card-container .card {

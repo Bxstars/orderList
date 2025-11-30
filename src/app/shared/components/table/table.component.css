@@ -37,6 +37,17 @@
   font-size: 13px;
 }
 
+.button-action {
+  border-radius: 8px;
+  border: none;
+  padding: 10px 30px;
+  background-color: #6E8CFB;
+  color: #ffffff;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 13px;
+}
+
 .material-icons {
   font-size: 10pt;
   font-weight: bold;
@@ -83,3 +94,9 @@
   background-color: #cfeee6;
   color: #47bb98;
 }
+
+/*
+#3C467B
+#50589C
+#636CCB
+#6E8CFB*/

@@ -1,0 +1,23 @@
+.layout {
+  display: flex;
+  height: 100vh;
+}
+
+app-navbar,
+.sidebar {
+  width: 240px;
+  background: #ffffff;
+  border-right: 1px solid #eee;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.content {
+  margin-left: 240px;
+  padding: 20px;
+  flex: 1;
+  background: #f2f3f7;
+  min-height: 100vh;
+}
