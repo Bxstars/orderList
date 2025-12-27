@@ -3,12 +3,12 @@ import { ActivatedRoute, NavigationEnd, Router, RouterOutlet } from '@angular/ro
 import { NavUserComponent } from './shared/components/nav-user/nav-user.component';
 import { Title } from '@angular/platform-browser';
 import { filter } from 'rxjs';
-import { CommonModule } from '@angular/common';
+
 import { NavbarComponent } from './shared/components/navbar/navbar.component';
 
 @Component({
     selector: 'app-root',
-    imports: [RouterOutlet, NavUserComponent, CommonModule, NavbarComponent],
+    imports: [RouterOutlet, NavUserComponent, NavbarComponent],
     templateUrl: './app.component.html',
     styleUrl: './app.component.css'
 })
