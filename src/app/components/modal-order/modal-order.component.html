@@ -10,34 +10,36 @@
         formControlName="customer"
         placeholder="Enter customer name"
         aria-required="true"
-      />
-      <mat-hint>Enter the name for this order</mat-hint>
-    </mat-form-field>
+        />
+        <mat-hint>Enter the name for this order</mat-hint>
+      </mat-form-field>
 
-    <mat-form-field appearance="outline">
-      <mat-label>Service Type</mat-label>
-      <mat-select formControlName="serviceType" aria-required="true">
-        <mat-option *ngFor="let service of serviceType" [value]="service.code">
-          {{ service.type }}
-        </mat-option>
-      </mat-select>
-      <mat-hint>Select how the order will be delivered</mat-hint>
-    </mat-form-field>
+      <mat-form-field appearance="outline">
+        <mat-label>Service Type</mat-label>
+        <mat-select formControlName="serviceType" aria-required="true">
+          @for (service of serviceType; track service) {
+            <mat-option [value]="service.code">
+              {{ service.type }}
+            </mat-option>
+          }
+        </mat-select>
+        <mat-hint>Select how the order will be delivered</mat-hint>
+      </mat-form-field>
 
-    <div class="action-button">
-      <app-button
-        label="Save"
-        background="#636CCB"
-        color="#ffffff"
-        width="160px"
-      ></app-button>
-      <app-button
-        label="Cancel"
-        background="#ffffff"
-        color="#000000"
-        border="2px solid #e3e6ea"
-        width="160px"
-      ></app-button>
-    </div>
-  </form>
-</section>
+      <div class="action-button">
+        <app-button
+          label="Save"
+          background="#636CCB"
+          color="#ffffff"
+          width="160px"
+        ></app-button>
+        <app-button
+          label="Cancel"
+          background="#ffffff"
+          color="#000000"
+          border="2px solid #e3e6ea"
+          width="160px"
+        ></app-button>
+      </div>
+    </form>
+  </section>
