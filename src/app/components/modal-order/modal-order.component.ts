@@ -9,7 +9,7 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { MatSelect, MatOption } from "@angular/material/select";
 import { ServiceType } from '../../interfaces/serviceType';
-import { CommonModule } from '@angular/common';
+
 import {MatButtonModule} from '@angular/material/button';
 import { ButtonComponent } from "../../shared/components/button/button.component";
 
@@ -23,7 +23,6 @@ import { ButtonComponent } from "../../shared/components/button/button.component
     ReactiveFormsModule,
     MatSelect,
     MatOption,
-    CommonModule,
     MatButtonModule,
     ButtonComponent
 ],

@@ -1,25 +1,31 @@
 <div class="card-container">
-  <div class="card" *ngFor="let card of data">
-    <div class="card-header">
-      <div class="border-icon">
-        <span class="material-icons-outlined">{{ card.icon }}</span>
+  @for (card of data; track card) {
+    <div class="card">
+      <div class="card-header">
+        <div class="border-icon">
+          <span class="material-icons-outlined">{{ card.icon }}</span>
+        </div>
+        <div>
+          <p class="card-value">{{ card.value }}</p>
+          <p class="card-title">{{ card.title }}</p>
+        </div>
       </div>
-      <div>
-        <p class="card-value">{{ card.value }}</p>
-        <p class="card-title">{{ card.title }}</p>
-      </div>
-    </div>
-    <hr>
-    <div class="card-footer">
-      <span>{{ card.comparison }}</span>
+      <hr>
+        <div class="card-footer">
+          <span>{{ card.comparison }}</span>
       <span class="trending" [ngClass]="{
         'trending_down': card.percentage < 0,
         'trending_up': card.percentage >= 0
       }">
-        <span *ngIf="card.percentage < 0" class="material-icons trending_down">trending_down</span>
-        <span *ngIf="card.percentage >= 0" class="material-icons trending_up">trending_up</span>
-        <strong>{{ card.percentage }}%</strong>
-      </span>
-    </div>
+            @if (card.percentage < 0) {
+              <span class="material-icons trending_down">trending_down</span>
+            }
+            @if (card.percentage >= 0) {
+              <span class="material-icons trending_up">trending_up</span>
+            }
+            <strong>{{ card.percentage }}%</strong>
+          </span>
+        </div>
+      </div>
+    }
   </div>
-</div>
